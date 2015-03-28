@@ -8,8 +8,6 @@
   "authors": [
     "abid1991@hotmail.fr <zeroual7>"
   ],
-  "directory":"assets"
-  ,
   "main": "server.js",
   "moduleType": [
     "node"
@@ -21,5 +19,6 @@
     "assets",
     "test",
     "tests"
-  ]
+  ],
+  "directory" : "assets"
 }
