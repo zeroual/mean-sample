@@ -1,8 +1,10 @@
 {
   "name": "mean-sample",
   "dependencies": {
+    "bcrypt": "^0.8.2",
     "body-parser": "^1.12.2",
     "express": "^4.12.3",
+    "jwt-simple": "^0.2.0",
     "mongoose": "^4.0.0"
   }
 }

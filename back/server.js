@@ -5,6 +5,7 @@ var path = require('path');
 app.use(bodyParser.json());
 
 app.use(require('./controllers/api/post'));
+app.use(require('./controllers/api/user'));
 
 app.use("/assets", express.static(__dirname +'/../front/assets'));
 app.use("/app", express.static(__dirname +'/../front/app'));
