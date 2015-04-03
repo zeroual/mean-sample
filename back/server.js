@@ -20,6 +20,7 @@ app.get("/",function(req,res){
     res.sendFile(indexFile);
 });
 
-app.listen(8888,function() {
+server=app.listen(8888,function() {
     console.log("server listening on", 8888);
 });
+require('./websocket').connect(server);
